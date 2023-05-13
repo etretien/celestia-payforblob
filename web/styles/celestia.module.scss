@@ -1,0 +1,24 @@
+.svg {
+  background-image: url('../static/img/back12.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 230%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-align: center;
+  z-index: -1;
+}
+
+.container {
+  max-width: 768px;
+  height: 100vh;
+}
+
+.main {
+  margin-top: 64px;
+}

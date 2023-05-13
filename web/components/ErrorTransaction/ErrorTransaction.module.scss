@@ -1,0 +1,24 @@
+.wrap {
+  padding-top: 30px;
+  min-height: 422px;
+
+  & p {
+    overflow-wrap: break-word;
+    margin-bottom: 4px;
+
+    &:first-of-type {
+      margin-top: 60px;
+    }
+  }
+  & button {
+    margin-top: 120px;
+  }
+}
+
+.title {
+  font-family: 'Epilogue';
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,127 @@
+.tabcontent {
+  width: 768px;
+  height: 992px;
+  background: #f8ffe8;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-top: 25px;
+}
+
+.backAccWrapper {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 32px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-image: url('../static/img/mask.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.background__inside {
+  width: 70%;
+  height: 100%;
+  background-image: url('../static/img/bg.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.container {
+  width: 768px;
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+
+  & hr {
+    margin: 24px 0;
+    opacity: 0.2;
+  }
+}
+
+.header {
+  max-width: 768px;
+  height: auto;
+  padding-top: 31px;
+  color: #ffffff;
+}
+
+.header__subtitle {
+  max-width: 250px;
+  height: auto;
+  border: 1px solid #ffffff24;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+
+  padding: 10px 0px 10px 16px;
+}
+
+.header__subtitle h4 {
+  font-weight: 100;
+  font-size: 35px;
+  margin: 5px 0px 0px 15px;
+}
+
+.header__subtitle img {
+  display: block;
+}
+
+.header__title {
+  text-align: start;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 0px;
+}
+
+.main {
+  width: 768px;
+  height: 992px;
+  background: #f8ffe8;
+  box-shadow: 0px 1px 1px rgba(34, 34, 29, 0.1);
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.navigation__item {
+  margin-right: 20px;
+}
+
+.main {
+  height: auto;
+}
+
+.main__wrapper {
+  padding: 24px;
+  height: auto;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.generateWrapp {
+  height: 422px;
+}

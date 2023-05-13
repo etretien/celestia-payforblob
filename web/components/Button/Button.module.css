@@ -1,0 +1,57 @@
+.btn {
+    outline: none;
+    border: unset;
+    cursor: pointer;
+    background: transparent;
+    color: #22221D;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    transition: background 200ms, color 200ms, border 200ms;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+}
+
+.btn_green {
+    background: #E6FF00;
+}
+
+.btn_green:disabled {
+    background: rgba(230, 255, 0, 0.25);
+    color: rgba(34, 34, 29, 0.25);
+}
+
+.btn_transparent {
+    border: 1px solid #22221d67;
+}
+
+.btn_transparent:disabled {
+    color: rgba(34, 34, 29, 0.25);
+    border: 1px solid rgba(34, 34, 29, 0.3);
+}
+
+.btn_l {
+    height: 80px;
+    line-height: 80px;
+    font-size: 32px;
+    padding: 0 24px;
+}
+
+.btn_m {
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 0 16px;
+}
+
+.btn_s {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 0 8px;
+}

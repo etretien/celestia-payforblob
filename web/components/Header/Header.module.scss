@@ -1,0 +1,71 @@
+.header {
+  position: relative;
+}
+
+.loginReg {
+  position: absolute;
+  right: 0px;
+  top: 6px;
+}
+
+.loginReg a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #22221d;
+}
+
+.loginReg a:nth-child(2) {
+  margin-right: 26px;
+}
+
+.header__iconLogin {
+  position: absolute;
+  right: 0px;
+  top: 3px;
+  opacity: 0.7;
+}
+.logo {
+  margin: 25px 0px -20px -10px;
+}
+.title {
+  max-width: 686px;
+}
+
+.title__text {
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.title__logo {
+  display: inline-block;
+  height: 72px;
+  width: 260px;
+  border: 1px solid #22221d;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 15px;
+  position: relative;
+}
+
+.title__subtitle {
+  font-size: 40px;
+  font-weight: 300;
+  margin-left: 50px;
+  color: #22221d;
+}
+
+.title__subtitle::before {
+  content: url('../../static/img/celestia.svg');
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.header h1 {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  color: #22221d;
+}

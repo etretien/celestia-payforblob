@@ -1,0 +1,32 @@
+.generate {
+  width: 100%;
+  font-size: 18px;
+
+  & .generateWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  & :global {
+    input {
+      min-width: unset;
+      width: 100%;
+    }
+
+    div[class*=Input_formItem] {
+      width: 100%;
+    }
+
+    button {
+      margin-left: 32px;
+      width: auto;
+      height: 65px;
+      line-height: 65px;
+    }
+
+    .error {
+      bottom: 0;
+    }
+  }
+}

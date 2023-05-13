@@ -1,0 +1,4 @@
+@mixin shadow_trans {
+  box-shadow: 2px 4px 17px 17px rgba(34, 60, 80, 0.3);
+  transition: transform 0.2s ease;
+}

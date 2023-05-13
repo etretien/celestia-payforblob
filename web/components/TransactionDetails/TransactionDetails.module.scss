@@ -1,0 +1,20 @@
+.wrap {
+  padding-top: 30px;
+
+  & span {
+    font-size: 18px;
+    opacity: 0.5;
+  }
+  & p {
+    margin-bottom: 24px;
+    overflow-wrap: break-word;
+  }
+}
+
+.title {
+  font-family: 'Epilogue';
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}

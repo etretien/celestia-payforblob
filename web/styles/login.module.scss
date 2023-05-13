@@ -1,0 +1,76 @@
+.accountHeader {
+  text-align: start;
+  color: #22221d;
+  letter-spacing: normal;
+}
+
+.line {
+  opacity: 0.2;
+}
+
+.accountHeader__step {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #22221d55;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.accountHeader__title {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  letter-spacing: normal;
+}
+.accountHeader__info {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 10px;
+  padding-bottom: 24px;
+}
+
+.form {
+  margin-top: 40px;
+  margin-bottom: 34px;
+  width: 720px;
+  letter-spacing: normal;
+}
+
+.form a {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #d402bf;
+  text-decoration: none;
+}
+
+.form p {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.form button {
+  width: 720px;
+  height: 80px;
+  left: 24px;
+  top: 888px;
+  background: #e6ff00;
+  border-radius: 8px;
+  border: none;
+  font-size: 32px;
+  line-height: 40px;
+  color: #22221d;
+  text-align: left;
+  padding-left: 24px;
+  cursor: pointer;
+  margin-top: 21px;
+  opacity: 0.5;
+}
+
+.form button:hover {
+  opacity: 1;
+  transition: all 1s ease;
+}
