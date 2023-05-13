@@ -30,3 +30,17 @@
     }
   }
 }
+@media screen and (max-width: 768px){
+
+  .generate {
+    & .generateWrap {
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+
+      & button {
+        margin-left: 0;
+      }
+    }
+  }
+
+}
