@@ -2,6 +2,10 @@
 
 This repository contains the UI for submitting PayForBlob transactions to the Celestia testnet. It includes both a backend and a frontend, each of which can be built and run using Docker.
 
+This project was made base as part of Lucidnode - https://lucidnode.com/
+
+Live version: https://pfb.celestia.lucidnode.com/celestia/submit_payforblob_transaction
+
 ## Prerequisites
 
 - Docker
